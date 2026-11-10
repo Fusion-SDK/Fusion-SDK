@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "author.example-mod",
+  "name": "Example Mod",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "description": "Describe what your mod does.",
+  "sdk": { "minimum": "0.1.0" },
+  "targets": [
+    {
+      "edition": "geometry-dash",
+      "platform": "windows",
+      "game_versions": ["*"],
+      "status": "untested"
+    }
+  ],
+  "entry": { "library": "example_mod" },
+  "dependencies": []
+}
